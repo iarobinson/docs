@@ -23,7 +23,7 @@ In order to start working with Fly.io, you will need `flyctl`, our CLI app for m
 <div class="callout">
 Before proceeding, something to be aware of. While Rails is [Optimized for Programmer happiness](https://rubyonrails.org/doctrine#optimize-for-programmer-happiness), it isn't particularly optimized for minimum RAM consumption. If you wish to deploy an app of any appreciable size or even make extensive use of features like `rails console`, you likely will hit RAM limits on your machine. And when applications run out of memory, they tend to behave unpredictably as error recovery actions will often also fail due to lack of memory.
 <p></p>
-The command to be used to address this is:
+The command to address this is:
 
 <div style="margin: 0 0 1em 2em">
 `fly scale vm shared-cpu-1x --memory 512`
